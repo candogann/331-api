@@ -1,0 +1,150 @@
+{
+    "sensorTemp": null,
+    "sensorTempMin": null,
+    "sensorTempMax": null,
+    "sensorHumidity": null,
+    "hourlyWeatherData" : {
+        "0": {
+            "temp" : null,
+            "humidity": null,
+            "skytext": null
+        },
+        "1": { 
+            "temp" : null,
+            "humidity": null,
+            "skytext": null
+        },
+        "2": { 
+            "temp" : null,
+            "humidity": null,
+            "skytext": null
+            
+        },
+        "3": { 
+            "temp" : null,
+            "humidity": null,
+            "skytext": null
+            
+        },
+        "4": { 
+            "temp" : null,
+            "humidity": null,
+            "skytext": null
+            
+        },
+        "5": { 
+            "temp" : null,
+            "humidity": null,
+            "skytext": null
+            
+        },
+        "6": { 
+            "temp" : null,
+            "humidity": null,
+            "skytext": null
+            
+        },
+        "7": { 
+            "temp" : null,
+            "humidity": null,
+            "skytext": null
+            
+        },
+        "8": { 
+            "temp" : null,
+            "humidity": null,
+            "skytext": null
+            
+        },
+        "9": { 
+            "temp" : null,
+            "humidity": null,
+            "skytext": null
+            
+        },
+        "10": { 
+            "temp" : 3,
+            "humidity": 5,
+            "skytext": null
+            
+        },
+        "11": { 
+            "temp" : null,
+            "humidity": null,
+            "skytext": null
+            
+        },
+        "12": { 
+            "temp" : null,
+            "humidity": null,
+            "skytext": null
+            
+        },
+        "13": { 
+            "temp" : null,
+            "humidity": null,
+            "skytext": null
+            
+        },
+        "14": { 
+            "temp" : null,
+            "humidity": null,
+            "skytext": null
+            
+        },
+        "15": { 
+            "temp" : null,
+            "humidity": null,
+            "skytext": null
+            
+        },
+        "16": { 
+            "temp" : null,
+            "humidity": null,
+            "skytext": null
+            
+        },
+        "17": { 
+            "temp" : null,
+            "humidity": null,
+            "skytext": null
+            
+        },
+        "18": { 
+            "temp" : null,
+            "humidity": null,
+            "skytext": null
+            
+        },
+        "19": { 
+            "temp" : null,
+            "humidity": null,
+            "skytext": null
+            
+        },
+        "20": { 
+            "temp" : null,
+            "humidity": null,
+            "skytext": null
+            
+        },
+        "21": { 
+            "temp" : null,
+            "humidity": null,
+            "skytext": null
+            
+        },
+        "22": { 
+            "temp" : null,
+            "humidity": null,
+            "skytext": null
+            
+        },
+        "23": { 
+            "temp" : null,
+            "humidity": null,
+            "skytext": null
+        }
+    },
+    "location": "Besiktas, İstanbul"
+}
