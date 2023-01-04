@@ -1,11 +1,12 @@
 
 var admin = require("firebase-admin");
+require('dotenv').config();
+var serviceAccount = require('./service_account.json');
 
-var serviceAccount = process.database;
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: process.env.databaseURL
+  databaseURL: process.env.DATABASE_URL
 });
 
 
