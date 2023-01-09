@@ -4,8 +4,8 @@ require('dotenv').config({path:'../.env'});
 const mode = 'json'
 const cnt = 24
 const apiURL = "https://api.openweathermap.org/data/3.0/onecall?"
-var api_key = "b441b6c7da157de731f38a37f628335e"
-
+//var api_key = "b441b6c7da157de731f38a37f628335e"
+var api_key = process.env.API_KEY
 var httpReturn = require('./returnTemplate.json')
 
 
@@ -27,7 +27,8 @@ function dataDump(dumpVar,responseVar) {
    for (i = 0; i < 24; i++) {
       dumpVar.hourlyWeatherData[i].temp = responseVar.hourly[i].temp;
       dumpVar.hourlyWeatherData[i].humidity = responseVar.hourly[i].humidity;
-      dumpVar.hourlyWeatherData[i].skytext = responseVar.hourly[i].weather.main;
+      dumpVar.hourlyWeatherData[i].skytext = responseVar.hourly[i].weather[0].main;
+console.log(responseVar.hourly[i])
    }
 }
 

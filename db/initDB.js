@@ -46,7 +46,7 @@ async function processData() {
       returnJSON.sensorTempMax = dataArray[length-i].temperature
     }
     if(returnJSON.sensorTempMin > dataArray[length-i].temperature) {
-      returnJSON.sensorTempMax = dataArray[length-i].temperature
+      returnJSON.sensorTempMin = dataArray[length-i].temperature
     }
   }
   return returnJSON
